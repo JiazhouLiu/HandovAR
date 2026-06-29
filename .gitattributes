@@ -1,0 +1,76 @@
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Unity source files
+*.cs text diff=csharp
+# Force Unity text-serialized assets to be treated as text & merged with Unity's tool
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.meta merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+*.anim merge=unityyamlmerge eol=lf
+*.physicMaterial merge=unityyamlmerge eol=lf
+*.mat merge=unityyamlmerge eol=lf
+# 3D models
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.dae filter=lfs diff=lfs merge=lfs -text
+*.3ds filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.gltf filter=lfs diff=lfs merge=lfs -text
+# Images / textures
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+# Audio
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.aif filter=lfs diff=lfs merge=lfs -text
+# Video
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+# Fonts
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+# Other binaries
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.a filter=lfs diff=lfs merge=lfs -text
+*.aar filter=lfs diff=lfs merge=lfs -text
+*.png !text !filter !merge !diff
+*.jpg !text !filter !merge !diff
+*.jpeg !text !filter !merge !diff
+*.fbx !text !filter !merge !diff
+*.obj !text !filter !merge !diff
+*.blend !text !filter !merge !diff
+*.dae !text !filter !merge !diff
+*.3ds !text !filter !merge !diff
+*.glb !text !filter !merge !diff
+*.gltf !text !filter !merge !diff
+*.tga !text !filter !merge !diff
+*.tif !text !filter !merge !diff
+*.tiff !text !filter !merge !diff
+*.psd !text !filter !merge !diff
+*.exr !text !filter !merge !diff
+*.hdr !text !filter !merge !diff
+*.wav !text !filter !merge !diff
+*.mp3 !text !filter !merge !diff
+*.ogg !text !filter !merge !diff
+*.aif !text !filter !merge !diff
+*.mp4 !text !filter !merge !diff
+*.mov !text !filter !merge !diff
+*.ttf !text !filter !merge !diff
+*.otf !text !filter !merge !diff
+*.dll !text !filter !merge !diff
+*.so !text !filter !merge !diff
+*.a !text !filter !merge !diff
+*.aar !text !filter !merge !diff
