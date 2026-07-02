@@ -9,26 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Script: {fileID: 11500000, guid: 525f90bc32dcb154e9b6c5cc82c3724d, type: 3}
   m_Name: Readme
   m_EditorClassIdentifier: 
-  icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
-  title: URP Empty Template
+  icon: {fileID: 2800000, guid: 9a60c4dfc248b407baf8e507b1d55b82, type: 3}
+  title: 
   sections:
-  - heading: Welcome to the Universal Render Pipeline
-    text: This template includes the settings and assets you need to start creating with the Universal Render Pipeline.
+  - heading: Welcome to the VR Multiplayer Template
+    text: 'The VR Multiplayer Template utilizes XR Interaction Toolkit, Netcode For
+      GameObjects, and multiple Unity Cloud services for ease of use and scalability.
+      Follow through the in editor tutorials to make sure everything is configured
+      properly and to get an overview of how these packages work within the template. '
     linkText: 
-    url:
-  - heading: URP Documentation
-    text:
-    linkText: Read more about URP
-    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest
-  - heading: Forums
-    text:
-    linkText: Get answers and support
-    url: https://forum.unity.com/forums/universal-render-pipeline.383/
-  - heading: Report bugs
-    text:
-    linkText: Submit a report
-    url: https://unity3d.com/unity/qa/bug-reporting
+    url: 
   loadedLayout: 1
